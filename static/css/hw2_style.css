@@ -1,0 +1,77 @@
+body {
+  background-color: yellow;
+}
+
+h1 {
+  text-align: center;
+  color: red;
+}
+
+h2 {
+  text-align: right;
+  color: blue;
+  font-style: italic;
+}
+
+#h2_30px {
+  font-size: 30px;
+}
+
+h3 {
+  text-align: right;
+  color: red;
+}
+
+p::first-letter {
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.red_underline {
+    color:#f00;
+}
+
+table {
+  background-color: cyan;
+  border-collapse: separate; border-spacing: 5px;
+  animation: pulse 7s;
+}
+
+@keyframes pulse {
+  100% {
+  background-color: green;
+  }
+  100% {
+  color: white;
+}
+  }
+
+
+.first_column {
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  
+}
+
+#banner_left_right {
+  width: 120px;
+  height: 50px;
+  padding: 5px;
+  letter-spacing: 2px;
+  background: rgb(43, 255, 0);
+  text-align: center;
+  color: rgb(107, 41, 212);
+  position: relative;
+  animation: leftright 10s infinite;
+  animation-direction: alternate;
+
+ 
+}
+
+@keyframes leftright {
+  from {left: 0px;}
+  to {left: 1100px;}
+  
+}
