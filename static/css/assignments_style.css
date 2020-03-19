@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(240, 224, 224);
+    padding: 40px;
+  
+}
+
+.background {
+  margin: 40px;
+  padding: 50px;
+  background-image: url("../img/pink_back.jpeg");
+  opacity: 0.9;
+  background-size: cover;
+  background-attachment: fixed;
+  color: black;
+}
+
+h1 {
+  /* text-align: center; */
+  color: rgb(39, 22, 28);
+}
+
+input.input {
+  border-radius: 5px;
+}
