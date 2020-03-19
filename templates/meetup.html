@@ -1,14 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="discription" content="this page keeps my MeetUp report of CNIT 132-Intermediate HTML and CSS-831">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Meetup</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="../static/css/meetup.css">
+
 </head>
+
 <body>
-  <input class="input" type="button" onclick="window.location.href = 'homework1.html'; " value="Home" />
+
+
   <br>
-  <h1>Coming soon!</h1>
+  <br>
+
+
+
+  <nav class="navbar navbar-light bg-light">
+    <form class="form-inline">
+      <button class="btn btn-outline-dark" type="button" onclick="window.location.href = 'homework1.html'; ">Home
+        page</button>
+    </form>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-sm-3">
+
+
+        <div class="heading">
+          <hr>
+          <p> <span class="event_date_link">Event date:</span> February 28, 2020</p>
+          <p> <span class="event_date_link">Event type:</span> Talk/Lecture</p>
+          <p><span class="event_date_link">Hosted by: </span>Peter Lubbers and SFHTML5</p>
+
+          <p><span class="event_date_link">MeetUp page: </span>
+            <a href="https://www.meetup.com/sfhtml5/events/268439896/" target="_blank">MeetUp</a>
+          </p>
+          <hr>
+        </div>
+        <br>
+
+
+
+        <div class=”gallery”>
+          <figure class="gallery__item gallery__item--1">
+            <img src="../static/img/meetup_badge.jpg" class="gallery__img" alt="Image 1"
+              style="width:180px;height:175px;">
+          </figure>
+
+          <figure class="gallery__item gallery__item--2">
+            <img src="../static/img/meetup_view.jpg" class="gallery__img" alt="Image 2"
+              style="width:180px;height:175px;">
+          </figure>
+
+          <figure class="gallery__item gallery__item--3">
+            <img src="../static/img/meetup_sfhtml5.jpg" class="gallery__img" alt="Image 3"
+              style="width:180px;height:175px;">
+          </figure>
+
+          <figure class="gallery__item gallery__item--4">
+            <img src="../static/img/meetup_topics.jpg" class="gallery__img" alt="Image 4"
+              style="width:180px;height:175px;">
+          </figure>
+
+          <figure class="gallery__item gallery__item--5">
+            <img src="../static/img/meetup_reasons_controls.jpg" class="gallery__img" alt="Image 5"
+              style="width:180px;height:175px;">
+          </figure>
+
+          <figure class="gallery__item gallery__item--6">
+            <img src="../static/img/meetup_graphic.jpg" class="gallery__img" alt="Image 6"
+              style="width:180px;height:175px;">
+          </figure>
+
+          <figure class="gallery__item gallery__item--7">
+            <img src="../static/img/meetup_companies.jpg" class="gallery__img" alt="Image 7"
+              style="width:180px;height:175px;">
+          </figure>
+        </div>
+      </div>
+
+
+
+
+      <div class="col-sm-8">
+        <br>
+        <h2 class="my-4">MeetUp Report</h2>
+
+        <br>
+        <h3>Standardizing &lt;select&gt;: <br>What the future holds for HTML Controls</h3>
+        <div class="paragraphs">
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            The meeting that took place at the Google San Francisco Office was mainly devoted to the problems that
+            front-and developers have been facing in their professional life and to the ways to solve the problems.
+            The
+            scheme that the involved people has been using is to collect opinions and improve technologies based on
+            them.
+          </p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            There was a Program Manager for Developer Experiences on Microsoft Edge who comes from a background in web
+            and
+            user interface design as well as front-end development Stephanie Stimac as a speaker. She began with recap
+            HTML and CSS evolution, reasons wht controls were created. Then she demonstrated statistic of the most
+            requested new naative components among which were &lt;virtual-list&gt;, &lt;toggle-switch&gt;,
+            &lt;input-masks&gt;, edit menue for selcted content, focus trap region, and &lt;segment-button&gt;.
+          </p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Stephanie Shtimak noted that a group of professionals under project called <a href="https://webwewant.fyi"
+              target="_blank">The Web We Want</a> who work to improve technologies actively communicate
+            with the dev community and representatives of cool technology companies such as GitHub, Ember, LinkedIn,
+            React, and others.
+            Every member of dev community (all of us, CCSF CS program students are such members as well) is welcome
+            to:
+            <ul>
+              <li>Provide feedback on the current HTML Control prototypes that Chrome has</li>
+              <li>Contribute to the form control investigations on <a href="https://open-ui.org" target="_blank">Open
+                  UI</a></li>
+              <li>Tell browser vendors what you need from your form controls</li>
+            </ul>
+
+        </div>
+        <br>
+
+        <hr class="horizontal">
+        <br>
+        <br>
+        <h4>Contact Information and links <br>to make contribution</h4>
+        <br>
+        <h5>Tell other implementers what you want</h5>
+        <ol>
+          <li>@mozhacks on Twitter</li>
+          <li>
+            <a href="https://github.com/mozilla/platform-status" target="_blank">Mozilla Firefox Platform Status</a>
+          </li>
+          <li>@webkit on Twitter</li>
+          <li><a href="https://webkit.org/status/" target="_blank">WebKit Platform Status</a></li>
+        </ol>
+        <br>
+
+        <h5>Follow these people</h5>
+        <ul>
+          <li>@stubbornella - Google Chrome PM</li>
+          <li>@gregwhitworth - Microsoft Edge PM</li>
+          <li>@seaotta - Microsoft Edge PM</li>
+        </ul>
+        <br>
+
+        <h5>How to participate</h5>
+        <ol>
+          <li>Go to <a href="https://webwewant.fyi" target="_blank">The Web We Want</a></li>
+          <li>Select SFHTNL5 from the dropdown of events</li>
+          <li>Fill out the form and submiit your want for the web!</li>
+        </ol>
+        <hr>
+
+      </div>
+
+
+    </div>
+  </div>
+
 </body>
+
 </html>
